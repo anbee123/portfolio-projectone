@@ -3,7 +3,7 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
+|Day 1| Project Description | completed
 |Day 2| Wireframes / Priority Matrix / Timeline | completed
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -23,11 +23,13 @@
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger Menu | H | 1hr | hr |
+| Portfolio layout | H | 1hr | hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Vertical Elements | H | 1hr | hr |
+| Horizontal Elements | H | 1hr | hr |
+| Divs | H | 1hr | hr |  
+| Img | M | 1hr | hr|
 | Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Social Media Icons | L | 1hr |  hr |
@@ -37,13 +39,13 @@
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
+|
+| index.HTML  | L | 3hr | -hr | hr |
+| Images | L | 2hr | hr |
+| style.css | M | 4hr | hr |
+| Materialize | H | 4hr | hr |
 | Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Total | H | 17hrs| hrs |
 
 
 ## Additional Libraries Used
