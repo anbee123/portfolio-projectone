@@ -39,7 +39,6 @@
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-|
 | index.HTML  | L | 3hr | -hr | hr |
 | Images | L | 2hr | hr |
 | style.css | M | 4hr | hr |
