@@ -11,7 +11,10 @@
 |Day 6| Present | Incomplete
 
 ## Wireframes
+<<<<<<< HEAD
 
+=======
+>>>>>>> b416a1dfae9741b0686b0541fabd4cf7fe3d4a7d
 ![](img/Screen%20Shot%202022-09-28%20at%2010.31.32%20PM.png)
 
 ## Time/Priority Matrix 
