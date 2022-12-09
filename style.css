@@ -37,12 +37,13 @@ header{
     justify-content: space-between ;
 }
 .logo{
-   font-size: 30px; 
+   font-size: 25px; 
    font-weight: 600;
    color: var(--second-color);
 }
 .navlist{
     display:flex;
+    justify-content: flex-end;
 }
 .navlist li{
     position: relative ;
@@ -51,7 +52,7 @@ header{
     color: var(--text-color);
     font-weight: 300;
     font-size: 17px;
-    padding: 8px 15px
+    padding: 8px 15px;
 
 }
 .navlist a::after{
@@ -62,7 +63,7 @@ header{
     background: var(--main-color);
     left: 0;
     bottom: -4px;
-    transition: ease .40s;
+    transition: ease .4s;
 }
 .navlist a:hover::after{
     width: 100%;
@@ -205,6 +206,8 @@ span {
     background: var(--bg-color) ;
     padding: 40px 30px;
     border-radius: 4px;
+    display: flex;
+    
 }
 .box i{ 
     color: var(--text-color);
@@ -234,7 +237,7 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
     border-radius: 10px;
     top: 0;
     left: 0;
-    transition: all .35s;
+    transition: all .2s;
 }
 .layer:hover{
     background: linear-gradient(rgba(22,22,22,0.09) 0%, #e86b98);
@@ -247,7 +250,7 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
     color: var(--text-color);
     transform: translateY(-20%);
     opacity: 0;
-    transition: all .10s;
+    transition: all .5s;
 }
 .layer:hover h3{
     opacity:1;
@@ -271,13 +274,13 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
     color: var(--other-color);
     font-size: 50px;
     border-radius: 50%;
-    transition: all .30s
+    transition: all .2s
 }
 .icon a:hover{
     transform: translateY(-10px) ;
 }
 
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     header{
         padding: 18px 2%;
         transition: .3s;
@@ -293,8 +296,8 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
     home-text h4{
         font-size: 1rem;
     }
-}
-@media (max-width: 770px){
+} */
+/* @media (max-width: 770px){
     header{
         padding: 12px 1.5%;
     }
@@ -332,6 +335,5 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
 }
 .navlist.active{
     top: 100%;
-}
+} */
 
-}
