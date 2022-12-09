@@ -203,15 +203,14 @@ span {
     color: var(--other-color);
 }
 .box{
-    background: var(--bg-color) ;
-    padding: 40px 30px;
-    border-radius: 4px;
-    display: flex;
+ size: 30rem;
     
 }
 .box i{ 
     color: var(--text-color);
+    size: 100px;
     margin-bottom: 20px;
+    display: flex;
 }
 .portfolio-content{
     display:grid;
