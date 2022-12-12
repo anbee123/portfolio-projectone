@@ -68,6 +68,12 @@ header{
 .navlist a:hover::after{
     width: 100%;
 }
+.nav-c {
+    color:blue;
+    display: flex;
+    flex-direction: column;
+}
+
 #menu-icon{
     font-size: 30px;
     color: var(--text-color);

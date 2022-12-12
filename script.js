@@ -1,13 +1,15 @@
 let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
+console.log('test')
+navlist.addEventListener('click',()=>{
+    console.log('test')
+})
 
 
-
-menu.addEventListener ('click',()=> {
+document.querySelector('.toggle-btn').addEventListener ('click',()=> {
     console.log('addEventListener')
-    
-    menu.classList.toggle('bx-x');
-    navlist.classList.toggle('active');
+navlist.classList.toggle('nav-c')
+
 }) 
    
   
