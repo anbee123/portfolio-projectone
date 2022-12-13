@@ -25,7 +25,7 @@ body{
     color: var(--text-color);
 }
 header{
-    background: rgb(234, 176, 220);
+    background: rgb(205, 136, 189);
     padding: 15px 6%;
     position: fixed;
     width: 100%;
@@ -174,6 +174,7 @@ height: auto;
 
 .skills{
     background-color: var(--second-bg-color);
+    
 }
 .heading{
     text-align: center;
@@ -270,18 +271,19 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
     border-radius: 10px;
     padding: 0;
     margin-bottom: 15px;
+    background-color: rgb(227, 138, 174);
    
   
 }
 .icon a{
     display: inline-flex;
     align-items: flex-start;
-    background: rgb(149, 39, 100);
-   justify-content: flex-start;
+    background: rgb(161, 34, 104);
+   justify-content: space-around;
     width: 50px;
     height:50px;
     margin: auto;
-    color: var(--other-color);
+    color: rgb(227, 138, 174);
     font-size: 50px;
     border-radius: 50%;
     transition: all .2s
@@ -289,11 +291,7 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
 .icon a:hover{
     transform: translateY(-10px) ;
 }
-.contact {
-    background-color: aquamarine;
-    margin: auto;
-    
-}
+
 @media (max-width: 1000px){
     header{
         padding: 18px 2%;
