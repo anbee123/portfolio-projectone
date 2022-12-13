@@ -10,12 +10,12 @@
     
 }
 :root{
-    --bg-color: rgb(201, 135, 170);
-    --second-bg-color: rgb(242, 146, 223);
+    --bg-color: rgb(222, 176, 201);
+    --second-bg-color: rgb(227, 146, 211);
     --text-color: rgb(130, 14, 66);
     --second-color: rgb(155, 33, 104);
-    --main-color: rgb(213, 93, 181);
-    --other-color: rgb(86, 177, 234); 
+    --main-color: rgb(238, 147, 213);
+    --other-color: rgb(210, 127, 192); 
     --big-font: 5.0rem;
     --h2-font: 3.0rem;
     --p-font: 1rem;
@@ -25,7 +25,7 @@ body{
     color: var(--text-color);
 }
 header{
-    background: rgb(217, 171, 179);
+    background: rgb(234, 176, 220);
     padding: 15px 6%;
     position: fixed;
     width: 100%;
@@ -266,15 +266,17 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
 .icon h4{
     font-size: 25px;
     font-weight: 500;
-    color: var(--second-color);
-    background: var(--main-color);
+    color: var(--text-color);
     border-radius: 10px;
+    padding: 0;
+    margin-bottom: 15px;
+   
   
 }
 .icon a{
     display: inline-flex;
     align-items: flex-start;
-    background: var(--main-color);
+    background: rgb(149, 39, 100);
    justify-content: flex-start;
     width: 50px;
     height:50px;
@@ -287,7 +289,11 @@ grid-template-columns: repeat( auto-fit,minmax(100px, auto)) ;
 .icon a:hover{
     transform: translateY(-10px) ;
 }
-
+.contact {
+    background-color: aquamarine;
+    margin: auto;
+    
+}
 @media (max-width: 1000px){
     header{
         padding: 18px 2%;
